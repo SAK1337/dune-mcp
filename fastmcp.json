@@ -1,0 +1,20 @@
+{
+  "name": "mcp-server-dune",
+  "version": "0.1.0",
+  "description": "MCP server for Dune Analytics blockchain data integration",
+  "source": "src/mcp_server_dune/server.py",
+  "dependencies": [
+    "fastmcp>=2.0.0",
+    "dune-client>=1.10.0",
+    "pydantic>=2.0.0"
+  ],
+  "env": {
+    "DUNE_API_KEY": {
+      "required": true,
+      "description": "Dune Analytics API key for authentication"
+    }
+  },
+  "runtime": {
+    "python": ">=3.11"
+  }
+}

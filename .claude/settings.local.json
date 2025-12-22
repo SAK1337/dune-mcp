@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(openspec list:*)",
+      "Bash(openspec validate:*)",
+      "Bash(py:*)",
+      "Bash(where:*)",
+      "Bash(winget:*)",
+      "Bash(cmd /c \"C:\\\\Users\\\\mhingston\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe --version\")",
+      "Bash(\"C:\\\\Users\\\\mhingston\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" --version)",
+      "Bash(/c/Users/mhingston/AppData/Local/Programs/Python/Python312/python.exe:*)",
+      "Bash(/c/Program Files/Python312/python.exe:*)",
+      "Bash(cmd.exe //c \"py --version\")",
+      "Bash(cmd.exe //c \"where py & py --version\")",
+      "Bash(cmd.exe //c \"dir /s /b C:\\\\Users\\\\*\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python*\\\\python.exe 2>nul\")",
+      "Bash(cmd.exe //c \"dir /s /b \"\"C:\\\\Program Files\\\\Python*\\\\python.exe\"\" 2>nul & dir /s /b \"\"C:\\\\Python*\\\\python.exe\"\" 2>nul\")",
+      "Bash(cmd.exe //c \"reg query \"\"HKLM\\\\SOFTWARE\\\\Python\\\\PythonCore\"\" /s 2>nul | findstr InstallPath\")",
+      "Bash(cmd.exe //c \"reg query \"\"HKCU\\\\SOFTWARE\\\\Python\\\\PythonCore\"\" /s 2>nul\")",
+      "Bash(\"/c/Program Files/Python/python.exe\" --version)",
+      "Bash(cmd.exe //c \"dir \"\"C:\\\\Program Files\\\\Python\"\"\")",
+      "Bash(cmd.exe //c \"dir /b \"\"C:\\\\Program Files\\\\Python*\"\"\")"
+    ]
+  }
+}
