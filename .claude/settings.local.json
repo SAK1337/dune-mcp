@@ -18,7 +18,12 @@
       "Bash(cmd.exe //c \"reg query \"\"HKCU\\\\SOFTWARE\\\\Python\\\\PythonCore\"\" /s 2>nul\")",
       "Bash(\"/c/Program Files/Python/python.exe\" --version)",
       "Bash(cmd.exe //c \"dir \"\"C:\\\\Program Files\\\\Python\"\"\")",
-      "Bash(cmd.exe //c \"dir /b \"\"C:\\\\Program Files\\\\Python*\"\"\")"
+      "Bash(cmd.exe //c \"dir /b \"\"C:\\\\Program Files\\\\Python*\"\"\")",
+      "Bash(cmd.exe //c \"where /R C:\\\\Users conda.exe 2>nul\")",
+      "Bash(cmd.exe //c \"dir /s /b C:\\\\ProgramData\\\\*python.exe 2>nul\")",
+      "Bash(cmd.exe //c \"dir /s /b %USERPROFILE%\\\\.windsurf\\\\*.json 2>nul\")",
+      "Bash(cmd.exe //c \"dir /s /b %APPDATA%\\\\Windsurf\\\\*.json 2>nul\")",
+      "Bash(cmd.exe //c \"dir /s /b %USERPROFILE%\\\\.windsurf\\\\*mcp* 2>nul & dir /s /b %APPDATA%\\\\Windsurf\\\\*mcp* 2>nul & dir /s /b %USERPROFILE%\\\\.codeium\\\\*mcp* 2>nul\")"
     ]
   }
 }
